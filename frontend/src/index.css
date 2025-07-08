@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded;
+}
+.btn {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700;
+}
+.btn-1 {
+  @apply p-3 text-gray-600 font-semibold border-1 rounded hover:bg-green-500 hover:text-white duration-500;
+}
+
+.error{
+  @apply text-red-500 text-sm
+}
